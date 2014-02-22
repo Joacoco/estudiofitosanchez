@@ -1054,7 +1054,20 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('../images/header.png');
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		color: #fff;
+		text-align: center;
+		padding: 2.5em 0 2em 0;
+		cursor: default;
+	}
+
+	#header2
+	{
+		position: relative;
+		background-color: #FA8258;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -1099,6 +1112,14 @@
 			margin: 0;
 			padding: 4em 0 0 0;
 		}
+
+			#header2 .inner
+		{
+			position: relative;
+			z-index: 1;
+			margin: 0;
+			padding: 4em 0 0 0;
+		}	
 	
 		#header h1
 		{
