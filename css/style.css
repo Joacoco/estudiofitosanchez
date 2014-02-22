@@ -289,6 +289,14 @@
 				margin: 0 0 4em 0;
 			}
 			
+			.image.limited
+			{
+				display: block;
+				width: 100%;
+				margin: 0 auto 4em auto;
+				max-width: 795px;
+			}
+
 			.image.left
 			{
 				float: left;
